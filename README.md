@@ -6,7 +6,7 @@
 
 ## About This Project
 
-This machine learning project implements house price prediction models using the Melbourne Housing Market dataset. **The project demonstrates core machine learning concepts by building predictive models for Melbourne real estate prices**, progressing from basic decision trees to advanced ensemble methods like Random Forests. The project serves as a practical introduction to machine learning workflows, emphasizing proper model validation, handling overfitting/underfitting, and applying ensemble techniques to improve prediction accuracy.
+This project implements house price prediction models using the Melbourne Housing Market dataset. It demonstrates core ML concepts by building predictive models for Melbourne real estate prices, progressing from basic decision trees to advanced ensemble methods like Random Forests. Thus, it serves as a practical introduction to ML workflows, emphasizing proper model validation, handling overfitting/underfitting, and applying ensemble techniques to improve prediction accuracy.
 
 ## Dataset Description
 
@@ -144,7 +144,7 @@ house-price-prediction/
 ├── house_price_prediction.ipynb               # Main Jupyter notebook with complete analysis
 ├── output.csv              # Model predictions and results
 ├── README.md               # Project documentation
-└── main.ipynb              # Optional script version (if applicable)
+└── main.ipynb              # Optional script version
 ```
 
 ### Technical Skills
