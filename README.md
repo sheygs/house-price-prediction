@@ -1,11 +1,5 @@
 # House Price Prediction
 
-![Python](https://img.shields.io/badge/python-3.7+-blue.svg)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-latest-orange.svg)
-![pandas](https://img.shields.io/badge/pandas-latest-green.svg)
-
-## About This Project
-
 This project implements house price prediction models using the Melbourne Housing Market dataset. It demonstrates core ML concepts by building predictive models for Melbourne real estate prices, progressing from basic decision trees to advanced ensemble methods like Random Forests. Thus, it serves as a practical introduction to ML workflows, emphasizing proper model validation, handling overfitting/underfitting, and applying ensemble techniques to improve prediction accuracy.
 
 ## Dataset Description
@@ -37,7 +31,7 @@ The project uses real Melbourne housing market data with comprehensive property 
 
 ## Machine Learning Concepts Covered
 
-This project implements and demonstrates the following core ML concepts from the Kaggle course:
+This project implements and demonstrates the following core ML concepts:
 
 ### 1. Decision Trees
 
@@ -69,7 +63,7 @@ This project implements and demonstrates the following core ML concepts from the
 - **Categorical variable encoding** using one-hot encoding
 - **Feature selection** for optimal model performance
 
-## Technologies Used
+## 🔧 Technologies Used
 
 - **Python 3.7+**: Core programming language
 - **pandas**: Data manipulation and analysis
@@ -77,11 +71,11 @@ This project implements and demonstrates the following core ML concepts from the
 - **NumPy**: Numerical computing support
 - **Jupyter Notebook**: Interactive development environment
 
-## Setup and Installation
+## 📦 Installation
 
 ### Prerequisites
 
-- Python 3.7 or higher
+- Python (>=3.7)
 - pip package manager
 
 ### Installation Steps
@@ -103,20 +97,20 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 3. **Install required packages:**
 
 ```bash
-pip install pandas scikit-learn numpy jupyter
+pip install pandas numpy scikit-learn
 ```
 
 4. **Launch Jupyter Notebook:**
 
 ```bash
-jupyter notebook
+jupyter notebook house_price_prediction.ipynb
 ```
 
 ## How to Run the Project
 
 ### Interactive Notebook (Recommended)
 
-1. Open `lab.ipynb` in Jupyter Notebook
+1. Open `house_price_prediction.ipynb` in Jupyter Notebook
 2. Run cells sequentially to follow the complete workflow
 3. Experiment with different parameters and approaches
 4. View model predictions in `output.csv`
@@ -131,7 +125,7 @@ jupyter notebook
 6. **Prediction**: Generate house price predictions for test data
 7. **Results Analysis**: Compare model performance and interpret outcomes
 
-## Project Structure
+## 🪜 Project Structure
 
 ```
 house-price-prediction/
@@ -141,32 +135,14 @@ house-price-prediction/
 │   ├── train.csv           # Training data subset
 │   └── test.csv            # Testing data subset
 │
-├── house_price_prediction.ipynb               # Main Jupyter notebook with complete analysis
-├── output.csv              # Model predictions and results
-├── README.md               # Project documentation
-└── main.ipynb              # Optional script version
+├── house_price_prediction.ipynb      # Main Jupyter notebook with complete analysis
+├── output.csv                        # Model predictions and results
+├── README.md                         # Project documentation
+└── main.ipynb                        # Optional script version
 ```
 
-### Technical Skills
+## 💪 Acknowledgments
 
-- **Data manipulation** using pandas DataFrames
-- **Model implementation** with scikit-learn
-- **Performance evaluation** and validation techniques
-- **Ensemble method application** through Random Forests
-
-### Machine Learning Concepts
-
-- **Supervised learning** fundamentals
-- **Feature engineering** and preprocessing
-- **Model selection** and hyperparameter tuning
-- **Overfitting prevention** strategiess
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- **Kaggle** for providing the excellent "Intro to Machine Learning" course and dataset
+- **Kaggle** for providing the dataset
 - **Melbourne Housing Market** data contributors
 - The **scikit-learn** and **pandas** development communities
