@@ -71,7 +71,7 @@ This project implements and demonstrates the following core ML concepts:
 - **NumPy**: Numerical computing support
 - **Jupyter Notebook**: Interactive development environment
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 
@@ -125,7 +125,7 @@ jupyter notebook house_price_prediction.ipynb
 6. **Prediction**: Generate house price predictions for test data
 7. **Results Analysis**: Compare model performance and interpret outcomes
 
-## 🪜 Project Structure
+## Project Structure
 
 ```
 house-price-prediction/
@@ -141,7 +141,7 @@ house-price-prediction/
 └── main.ipynb                        # Optional script version
 ```
 
-## 💪 Acknowledgments
+## Acknowledgments
 
 - **Kaggle** for providing the dataset
 - **Melbourne Housing Market** data contributors
