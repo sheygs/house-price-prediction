@@ -63,7 +63,7 @@ This project implements and demonstrates the following core ML concepts:
 - **Categorical variable encoding** using one-hot encoding
 - **Feature selection** for optimal model performance
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - **Python 3.7+**: Core programming language
 - **pandas**: Data manipulation and analysis
